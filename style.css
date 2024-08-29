@@ -1,11 +1,41 @@
-body {
+* {
+    padding: 0px;
+    margin: 0px;
     font-family: 'Tahoma', sans-serif;
-    background-color: #F5F5F5;
-}
-h1, h2 {
-    text-align: center;
 }
 
-div {
+div{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 50px;
+    border-top: 1px solid #D5D5D5;
+}
+
+h1, h2, h3, p {
     color: #000000;
+}
+
+img {
+    width: 190px;
+}
+
+p {
+    width: 930px;
+    margin: 15px auto 30px auto;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+a {
+    background-color: #49B970;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+span {
+    font-weight: bold;
 }
